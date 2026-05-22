@@ -62,7 +62,7 @@ public class ModRegistry {
                         BlockPredicate.allOf(BlockPredicate.anyOf(BlockPredicate.matchesBlocks(List.of(Blocks.AIR,
                                         Blocks.CAVE_AIR,
                                         Blocks.VOID_AIR)), BlockPredicate.matchesTag(BlockTags.REPLACEABLE_BY_TREES)),
-                                BlockPredicate.matchesTag(Direction.DOWN.getUnitVec3i(), BlockTags.AZALEA_GROWS_ON),
+                                BlockPredicate.matchesTag(Direction.DOWN.getNormal(), BlockTags.AZALEA_GROWS_ON),
                                 new MatchingBiomeTagPredicate(GROWS_AZALEA_TREES_BIOME_TAG))));
     }
 }

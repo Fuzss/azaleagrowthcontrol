@@ -3,7 +3,7 @@
         "id": "azaleagrowthcontrol",
         "group": "fuzs.azaleagrowthcontrol",
         "name": "Azalea Growth Control",
-        "version": "21.11.0",
+        "version": "21.1.0",
         "authors": [
             "Fuzs"
         ],
@@ -36,13 +36,13 @@
     ],
     "links": [
         {
-            "name": "github",
-            "slug": "azaleagrowthcontrol"
-        },
-        {
             "name": "curseforge",
             "slug": "azalea-growth-control",
             "id": "1367455"
+        },
+        {
+            "name": "github",
+            "slug": "azalea-growth-control"
         },
         {
             "name": "modrinth",
