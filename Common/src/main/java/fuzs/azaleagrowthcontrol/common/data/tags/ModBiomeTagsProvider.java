@@ -1,4 +1,4 @@
-package fuzs.azaleagrowthcontrol.common.data;
+package fuzs.azaleagrowthcontrol.common.data.tags;
 
 import fuzs.azaleagrowthcontrol.common.init.ModRegistry;
 import fuzs.puzzleslib.common.api.data.v2.core.DataProviderContext;
