@@ -49,8 +49,10 @@ public class ModRegistry {
                 new RootSystemConfiguration(PlacementUtils.inlinePlaced(context.lookup(Registries.CONFIGURED_FEATURE)
                         .getOrThrow(TreeFeatures.AZALEA_TREE)),
                         3,
+                        0,
+                        0,
                         3,
-                        BlockTags.AZALEA_ROOT_REPLACEABLE,
+                        context.lookup(Registries.BLOCK).getOrThrow(BlockTags.AZALEA_ROOT_REPLACEABLE),
                         BlockStateProvider.simple(Blocks.ROOTED_DIRT),
                         20,
                         100,
