@@ -5,11 +5,17 @@
     "26.1.x": "maintained",
     "26.2.x": "primary"
   },
-  "properties": {
-    "distributions.curseforge.id": "1367455",
-    "distributions.curseforge.slug": "azalea-growth-control",
-    "distributions.github.slug": "azalea-growth-control",
-    "distributions.modrinth.id": "XJPF1kgi",
-    "distributions.modrinth.slug": "azalea-growth-control"
+  "distributions": {
+    "curseforge": {
+      "id": "1367455",
+      "slug": "azalea-growth-control"
+    },
+    "github": {
+      "slug": "azalea-growth-control"
+    },
+    "modrinth": {
+      "id": "XJPF1kgi",
+      "slug": "azalea-growth-control"
+    }
   }
 }
